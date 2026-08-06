@@ -1,1 +1,1 @@
-This is where I'll be gathering all my code for this learning project.
+This will be where all code related to this project will be gathered.
