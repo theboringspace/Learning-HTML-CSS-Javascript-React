@@ -7,3 +7,5 @@ This will be where all code related to this project will be gathered.
 # Javascript
 
 # React
+
+# Main Project
