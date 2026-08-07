@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+
+<html>      
+    <head>
+        <title> 04- Links & Images </title>
+    </head>
+
+    <body>
+        <p>
+            I want a picture. Here's a cute picture of a seal.      
+        </p>
+        
+        <!-- img is what we call a tag, i.e. what is this special thing? an image -->
+        <!-- I'll explain src in attributes -->
+        <img src="Resources\CuteSeal.jpg" height="800" width="300" alt="Very Cute Seal">
+        <!-- The image is located via a relative file path -->
+        <!-- You can also make it scale automatically in the other dimension -->
+         <br>
+        <a href="https://en.wikipedia.org/wiki/Seals">
+            <img src="Resources\CuteSeal.jpg" height="300" alt="Very Cute Seal" title="This seal is a cutie patootie">
+        </a>
+        <!-- You can also add the title attribute to the img tag -->
+        <!-- It's also good practice to provide alt names to these images or other kinds of tags -->
+
+        <p> 
+            Do you want  another picture? Here's a link to it.
+        </p>
+
+        <!-- <a> stands for anchor, href is where to anchor to -->
+        <a href="04.2 - Links & Images.html"> Click For Legit Seal Photo </a>
+
+        <br>
+
+        <!-- We can also control where this anchor targets. The default is self -->
+        <a href="04.2 - Links & Images.html" target="_blank" title="This takes you to a Photo of Seal"> Click For Legit Seal Photo in Another Tab </a>
+        <!-- Title makes so that when you hover over a link, it shows text -->
+
+        <br>
+
+        <!-- You could also make hrefs to emails -->
+        <a href="mailto:fake123@gmail.com" target="_self" title="Link to email"> Email me </a>
+        <!-- This opens your devices default email app -->
+    </body> 
+</html>
